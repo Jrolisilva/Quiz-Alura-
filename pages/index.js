@@ -4,6 +4,7 @@ import Widget from '../src/components/Widget/index'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer/index'
 import GitHubCorner from '../src/components/GitHubCorner'
+import QuizLogo from '../src/components/QuizLogo'
 
 
 /* const BackgroundImage = styled.div`
@@ -16,21 +17,18 @@ import GitHubCorner from '../src/components/GitHubCorner'
     top: 0;
     margin: auto;
     ` */
-    
+
 export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350%;
-  padding-top: 45px;
-  margin: auto;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-  `;
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+`;
 
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <QuizLogo />
       <QuizContainer>
         <Widget>
           <Widget.Header>
@@ -47,9 +45,9 @@ export default function Home() {
             <p>The may the force be with you</p>
           </Widget.Content>
         </Widget>
-        <Footer/>
+        <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/Jrolisilva"/>
+      <GitHubCorner projectUrl="https://github.com/Jrolisilva" />
     </QuizBackground>
   )
 }
