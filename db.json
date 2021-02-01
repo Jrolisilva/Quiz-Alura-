@@ -6,8 +6,8 @@
       {
         "image": "https://observatoriodeseries.uol.com.br/wp-content/uploads/2020/07/Novo-Projeto-46-1.jpg",
         "title": "Ashoka foi treinada por qual jedi ?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "description": "Essa é facil",
+        "answer": 1,
         "alternatives": [
           "Obi-Wan Kenobi",
           "Anakin Skywalker",  
@@ -16,13 +16,51 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "image": "https://qph.fs.quoracdn.net/main-qimg-6c79084ffa275b864f276893d68de5f1",
+        "title": "Qual planeta serviu de refugio para Mestre Yoda",
         "description": "Faz tempo em haha",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Dagobah",
+           "Tatooine",
+           "Naboo",
+           "Coruscant"
+        ]
+      },
+      {
+        "image": "https://lumiere-a.akamaihd.net/v1/images/Mace-Windu_b35242e5.jpeg?region=0%2C0%2C1637%2C921&width=960",
+        "title": "Qual o nome desse Jedi ?",
+        "description": "Hum te peguei haha",
+        "answer": 2,
+        "alternatives": [
+           "Qui-Gon",
+           "Kit Fisto",
+           "Mace-Windu",
+           "Ki-Adi-Mundi"
+        ]
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51EK%2BzdMxgL._AC_.jpg",
+        "title": "Galen Erso aparece em qual filme ?",
+        "description": "Essa eu quero ver",
+        "answer": 3,
+        "alternatives": [
+           "Ascensão Skywalker",
+           "O Despertar da Força",
+           "A vingança do Sith",
+           "Rougue-One"
+        ]
+      },
+      {
+        "image": "https://www.denofgeek.com/wp-content/uploads/2017/11/jar-jar-binks.jpg?resize=768%2C432",
+        "title": "Qual o nome desse personagem ? ",
+        "description": "Facinho hein",
+        "answer": 0,
+        "alternatives": [
+           "Jar Jar Binks",
+           "Chewbacca",
+           "Sebulba",
+           "Watto"
         ]
       }
     ],
